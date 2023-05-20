@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Gurajada&family=Sigmar&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+  body {
+    @apply min-h-screen w-full bg-secondary relative text-white;
+  }
+  .hero {
+    background: url(./assets/money.gif) no-repeat center center;
+    background-size: cover;
+  }
+  .about {
+    background: url(./assets/money2.gif) no-repeat center center;
+    background-size: cover;
+  }
+}
