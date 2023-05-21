@@ -13,12 +13,13 @@ const Hero = () => {
   return (
     <section className="min-h-screen flex justify-center items-center w-full bg-white text-black hero pt-[100px]">
       <div className="container grid justify-center items-center flex-col h-full gap-8">
-        <div className="z-10 text-center flex flex-col gap-3">
-          <h1 className="text-7xl font-Sigmar stroke-1 capitalize max-w-xl">
-            wife changing money
+        <div className="z-10 text-center flex flex-col gap-3 justify-center">
+          <h1 className="text-7xl font-Sigmar stroke-1 capitalize max-w-xl text-center mx-auto">
+            Wife Changing Money $WCM
           </h1>
-          <h2 className="font-Gurajada  text-2xl">
-            GET READY TO LOSE SOME FUCKING MONEY
+          <h2 className="font-Gurajada  text-2xl text-center max-w-md mx-auto">
+            Step aside, boring finance! Say hello to "Wife Changing Money"
+            (WCM), the coolest token on the Ethereum block.
           </h2>
           <h2 className="font-Sigmar text-3xl break-words " onClick={Copy}>
             Contract
