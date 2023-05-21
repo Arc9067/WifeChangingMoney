@@ -25,6 +25,9 @@ const About = () => {
           generational poverty. Who needs stability and wealth when you can have
           a lifetime supply of belly laughs?
         </p>
+        <div className="">
+          
+        </div>
       </div>
     </section>
   );

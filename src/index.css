@@ -16,4 +16,12 @@
     background: url(./assets/money2.gif) no-repeat center center;
     background-size: cover;
   }
+  .chart {
+    background: url(./assets/fire.gif) no-repeat center center;
+    background-size: cover;
+  }
+  .roadmap {
+    background: url(./assets/moon.gif) no-repeat center center;
+    background-size: cover;
+  }
 }

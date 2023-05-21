@@ -28,13 +28,25 @@ const Hero = () => {
           </h2>
           <div className="flex mx-auto mt-4 gap-4 flex-wrap justify-center items-center">
             <a href="">
-              <img src={Telegram} alt="" className="max-w-[5rem]" />
+              <img
+                src={Telegram}
+                alt=""
+                className="max-w-[5rem] bg-white p-3 rounded-full"
+              />
             </a>
             <a href="">
-              <img src={Twitter} alt="" className="max-w-[5rem] " />
+              <img
+                src={Twitter}
+                alt=""
+                className="max-w-[5rem]  bg-white p-3 rounded-full"
+              />
             </a>
             <a href="">
-              <img src={Uniswap} alt="" className="max-w-[5rem] " />
+              <img
+                src={Uniswap}
+                alt=""
+                className="max-w-[5rem]  bg-white p-3 rounded-full"
+              />
             </a>
             <a href="">
               <img src={Des} alt="" className="max-w-[5rem] rounded-full" />
