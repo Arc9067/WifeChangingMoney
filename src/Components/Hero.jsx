@@ -11,7 +11,7 @@ const Hero = () => {
     alert("Contract Copied");
   }
   return (
-    <section className="min-h-screen flex justify-center items-center w-full bg-primary text-black hero pt-[100px]">
+    <section className="min-h-screen flex justify-center items-center w-full bg-white text-black hero pt-[100px]">
       <div className="container grid justify-center items-center flex-col h-full gap-8">
         <div className="z-10 text-center flex flex-col gap-3">
           <h1 className="text-7xl font-Sigmar stroke-1 capitalize max-w-xl">
